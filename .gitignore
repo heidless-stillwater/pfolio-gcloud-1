@@ -1,11 +1,10 @@
 *.pyc
 #.env
 .env.development
-.env.production
+#.env.production
 .DS_Store
 .next/
 db.sqlite3
-package-lock.json
 node_modules/ 
 venv/
 */migrations/*
