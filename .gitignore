@@ -1,5 +1,5 @@
 *.pyc
-.env
+#.env
 .env.development
 .env.production
 .DS_Store
