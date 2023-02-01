@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: backend
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: backend
+    spec:
+      containers:
+      - image: arjuna11/portfolio-website:django
+        name: portfolio-website-backend
+        env:
+          - name: DATABASE_NAME
+            value: "portfolio"
+          - name: DATABASE_HOST
+            value: "postgres-service"
+          - name: DATABASE_USER
+            value: "heidless"
+          - name: PORT
+            value: "5432"
+          - name: DATABASE_PASSWORD
+            value: "havana11"
+          - name: FRONTEND
+            value: "frontend-service"
+        ports:
+          - containerPort: 8080
+        volumeMounts:
+          - mountPath: /var/log/
+            name: backend
+        command: ["/bin/sh", "-c"]
+        args:
+          - apt-get update;
+            apt-get -y install vim;
+            python manage.py makemigrations bucket;
+            python manage.py migrate;
+            gunicorn --bind 0.0.0.0:8080 --workers 3 portfolio-website.wsgi:application
+      volumes:
+        - name: backend
+          hostPath:
+            path: /var/log/
+status: {}
+  

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hpfolio-deployment
+  labels:
+    app: hpfolio-kb-0
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hpfolio-kb-0
+  template:
+    metadata:
+      labels:
+        app: hpfolio-kb-0
+    spec:
+      containers:
+      - name: hpfolio-kb-0
+        image: arjuna11/portfolio-website:django
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080

@@ -1,0 +1,99 @@
+* 
+* ==> Audit <==
+* |-----------|-------------------------------|----------|----------|---------|---------------------|---------------------|
+|  Command  |             Args              | Profile  |   User   | Version |     Start Time      |      End Time       |
+|-----------|-------------------------------|----------|----------|---------|---------------------|---------------------|
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 16 Oct 22 13:44 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 16 Oct 22 16:19 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 16 Oct 22 18:08 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 16 Oct 22 19:17 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 08:51 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 09:03 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 11:43 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 12:44 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 13:22 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 14:07 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 14:16 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 20:23 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 17 Oct 22 22:59 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 09:56 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 11:17 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 12:03 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 12:59 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 18:27 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 18 Oct 22 19:44 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 09:14 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 10:44 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 18:21 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 20:08 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 20:57 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 19 Oct 22 22:12 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 08:27 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 17:17 BST |                     |
+| start     | --driver=docker               | minikube | heidless | v1.27.0 | 20 Oct 22 19:57 BST | 20 Oct 22 19:59 BST |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 20:14 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 20:26 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 20:36 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 20 Oct 22 21:30 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 21 Oct 22 13:41 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 21 Oct 22 15:14 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 24 Oct 22 17:20 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 25 Oct 22 10:26 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 25 Oct 22 15:20 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 27 Oct 22 09:23 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 27 Oct 22 12:19 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 27 Oct 22 12:55 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 27 Oct 22 21:58 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 27 Oct 22 22:11 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 28 Oct 22 08:04 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 28 Oct 22 13:18 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 28 Oct 22 17:04 BST |                     |
+| start     | --driver=docker               | minikube | heidless | v1.27.0 | 28 Oct 22 18:30 BST | 28 Oct 22 18:31 BST |
+| addons    | list                          | minikube | heidless | v1.27.0 | 28 Oct 22 18:33 BST | 28 Oct 22 18:33 BST |
+| dashboard |                               | minikube | heidless | v1.27.0 | 28 Oct 22 18:33 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.0 | 28 Oct 22 18:34 BST |                     |
+| service   | my-nginx-svc --url            | minikube | heidless | v1.27.0 | 28 Oct 22 18:37 BST | 28 Oct 22 18:37 BST |
+| service   | my-nginx-svc --url            | minikube | heidless | v1.27.0 | 28 Oct 22 18:40 BST | 28 Oct 22 18:42 BST |
+| dashboard |                               | minikube | heidless | v1.27.0 | 28 Oct 22 20:29 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.0 | 28 Oct 22 20:56 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.0 | 28 Oct 22 21:01 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.1 | 29 Oct 22 11:41 BST |                     |
+| start     |                               | minikube | heidless | v1.27.1 | 29 Oct 22 11:41 BST | 29 Oct 22 11:42 BST |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 29 Oct 22 11:43 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.1 | 29 Oct 22 12:49 BST |                     |
+| start     | --download-only --output json | minikube | heidless | v1.27.0 | 29 Oct 22 15:48 BST |                     |
+| dashboard |                               | minikube | heidless | v1.27.1 | 29 Oct 22 15:50 BST |                     |
+|-----------|-------------------------------|----------|----------|---------|---------------------|---------------------|
+
+* 
+* ==> Last Start <==
+* Log file created at: 2022/10/29 15:48:17
+Running on machine: DESKTOP-QRO0TJR
+Binary: Built with gc go1.19.1 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1029 15:48:17.012881     957 out.go:296] Setting OutFile to fd 1 ...
+I1029 15:48:17.013144     957 out.go:348] isatty.IsTerminal(1) = false
+I1029 15:48:17.013150     957 out.go:309] Setting ErrFile to fd 2...
+I1029 15:48:17.013159     957 out.go:348] isatty.IsTerminal(2) = false
+I1029 15:48:17.013323     957 root.go:333] Updating PATH: /home/heidless/.minikube/bin
+W1029 15:48:17.014216     957 root.go:310] Error reading config file at /home/heidless/.minikube/config/config.json: open /home/heidless/.minikube/config/config.json: no such file or directory
+I1029 15:48:17.014690     957 out.go:303] Setting JSON to true
+I1029 15:48:17.015676     957 start.go:115] hostinfo: {"hostname":"DESKTOP-QRO0TJR","uptime":220,"bootTime":1667054677,"procs":22,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"20.04","kernelVersion":"5.10.102.1-microsoft-standard-WSL2","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"217c5ca6-e4e7-4a9c-b975-4b7b24836f8a"}
+I1029 15:48:17.015729     957 start.go:125] virtualization:  
+I1029 15:48:17.024294     957 out.go:97] minikube v1.27.0 on Ubuntu 20.04
+I1029 15:48:17.024976     957 notify.go:214] Checking for updates...
+I1029 15:48:17.026768     957 out.go:169] MINIKUBE_WANTUPDATENOTIFICATION=false
+I1029 15:48:17.029272     957 config.go:180] Loaded profile config "minikube": Driver=docker, ContainerRuntime=docker, KubernetesVersion=v1.23.3
+I1029 15:48:17.031317     957 out.go:169] Kubernetes 1.25.0 is now available. If you would like to upgrade, specify: --kubernetes-version=v1.25.0
+I1029 15:48:17.034629     957 driver.go:365] Setting default libvirt URI to qemu:///system
+W1029 15:48:17.062831     957 docker.go:113] docker version returned error: exit status 1
+I1029 15:48:17.064620     957 out.go:97] Using the docker driver based on existing profile
+I1029 15:48:17.064637     957 start.go:284] selected driver: docker
+I1029 15:48:17.064651     957 start.go:808] validating driver "docker" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.30@sha256:02c921df998f95e849058af14de7045efc3954d90320967418a0d1f182bbc0b2 Memory:3000 CPUs:2 DiskSize:20000 VMDriver: Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:0 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.23.3 ClusterName:minikube Namespace:default APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin: FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[{Component:kubelet Key:housekeeping-interval Value:5m}] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI: NodeIP: NodePort:8443 NodeName:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.23.3 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[ambassador:false auto-pause:false csi-hostpath-driver:false dashboard:true default-storageclass:true efk:false freshpod:false gcp-auth:false gvisor:false headlamp:false helm-tiller:false inaccel:false ingress:false ingress-dns:false istio:false istio-provisioner:false kong:false kubevirt:false logviewer:false metallb:false metrics-server:false nvidia-driver-installer:false nvidia-gpu-device-plugin:false olm:false pod-security-policy:false portainer:false registry:false registry-aliases:false registry-creds:false storage-provisioner:true storage-provisioner-gluster:false volumesnapshots:false] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/heidless:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath:}
+I1029 15:48:17.064821     957 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I1029 15:48:17.111887     957 info.go:265] docker info: {ID: Containers:0 ContainersRunning:0 ContainersPaused:0 ContainersStopped:0 Images:0 Driver: DriverStatus:[] SystemStatus:<nil> Plugins:{Volume:[] Network:[] Authorization:<nil> Log:[]} MemoryLimit:false SwapLimit:false KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:false CPUCfsQuota:false CPUShares:false CPUSet:false PidsLimit:false IPv4Forwarding:false BridgeNfIptables:false BridgeNfIP6Tables:false Debug:false NFd:0 OomKillDisable:false NGoroutines:0 SystemTime:0001-01-01 00:00:00 +0000 UTC LoggingDriver: CgroupDriver: NEventsListener:0 KernelVersion: OperatingSystem: OSType: Architecture: IndexServerAddress: RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[] IndexConfigs:{DockerIo:{Name: Mirrors:[] Secure:false Official:false}} Mirrors:[]} NCPU:0 MemTotal:0 GenericResources:<nil> DockerRootDir: HTTPProxy: HTTPSProxy: NoProxy: Name: Labels:[] ExperimentalBuild:false ServerVersion: ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:}} DefaultRuntime: Swarm:{NodeID: NodeAddr: LocalNodeState: ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary: ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[] ProductLicense: Warnings:<nil> ServerErrors:[Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?] ClientInfo:{Debug:false Plugins:[map[Experimental:true Name:app Path:/usr/libexec/docker/cli-plugins/docker-app SchemaVersion:0.1.0 ShortDescription:Docker App Vendor:Docker Inc. Version:v0.9.1-beta3] map[Err:failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-buildx: no such file or directory Name:buildx Path:/usr/local/lib/docker/cli-plugins/docker-buildx ShadowedPaths:[/usr/libexec/docker/cli-plugins/docker-buildx]] map[Err:failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-compose: no such file or directory Name:compose Path:/usr/local/lib/docker/cli-plugins/docker-compose ShadowedPaths:[/usr/libexec/docker/cli-plugins/docker-compose]] map[Err:failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-extension: no such file or directory Name:extension Path:/usr/local/lib/docker/cli-plugins/docker-extension] map[Err:failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-sbom: no such file or directory Name:sbom Path:/usr/local/lib/docker/cli-plugins/docker-sbom] map[Err:failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-scan: no such file or directory Name:scan Path:/usr/local/lib/docker/cli-plugins/docker-scan ShadowedPaths:[/usr/libexec/docker/cli-plugins/docker-scan]]] Warnings:<nil>}}
+I1029 15:48:17.116682     957 out.go:169] 
+W1029 15:48:17.118277     957 out_reason.go:110] Requested cpu count 2 is greater than the available cpus of 0
+I1029 15:48:17.122464     957 out.go:169] 
+
+* 

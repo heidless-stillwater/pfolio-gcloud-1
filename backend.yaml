@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: backend
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: backend
+    spec:
+      containers:
+      - image: arjuna11/portfolio-website:django
+        name: portfolio-website
+        resources: {}
+        env:
+          - name: POSTGRES_DB
+            value: "portfolio"
+          - name: POSTGRES_HOST
+            value: "postgres"
+          - name: POSTGRES_USER
+            value: "heidless"
+          - name: PORT
+            value: "5432"
+          - name: POSTGRES_PASSWORD
+            value: "havana11"
+          - name: FRONTEND
+            value: "frontend-service"
+        ports:
+          - containerPort: 8080
+        volumeMounts:
+          - mountPath: /var/log/
+            name: backend
+        command: ["/bin/sh", "-c"]
+        args:
+          - apk update;
+            apk add vim;
+            apk add postgresql-dev gcc python3-dev musl-dev;
+            pip install --upgrade pip pipenv;
+            pipenv sync;
+            pipenv run echo '###########in ARGS############';
+            pipenv run ls -al;
+            pipenv run sh ./.env;
+            pipenv run echo 'DATABASE_NAME:' $DATABASE_NAME;
+            pipenv run echo 'HOST:' $POSTGRES_HOST  'DB:' $POSTGRES_DB  'USER:' $POSTGRES_USER 'PWD:' $POSTGRES_PASSWORD ;
+            pipenv run echo '###########makemigrations############';
+            pipenv run python manage.py makemigrations;
+            pipenv run python manage.py migrate;
+            pipenv run gunicorn --bind 0.0.0.0:8080 --workers 3 portfolio-website.wsgi:application
+      volumes:
+      - name: backend
+        hostPath:
+          path: /var/log/
+status: {}
+  
+

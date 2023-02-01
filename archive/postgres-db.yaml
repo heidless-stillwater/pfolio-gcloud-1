@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: postgres-db
+  name: postgres-db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres-db
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: postgres-db
+    spec:
+      containers:
+      - image: postgres:14.1-alpine
+        name: postgres
+        resources: {}
+        ports:
+          - containerPort: 5432
+        volumeMounts:
+          - mountPath: /var/log/
+            name: postgres-db
+        env:
+          - name: POSTGRES_DB
+            value: "portfolio"
+          - name: POSTGRES_USER
+            value: "heidless"
+          - name: POSTGRES_PASSWORD
+            value: "havana11"
+        volumes:
+          - name: postgres-db
+            hostPath:
+              path: /var/log/
+status: {}
